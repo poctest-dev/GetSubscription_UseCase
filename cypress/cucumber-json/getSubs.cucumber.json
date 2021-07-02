@@ -1,0 +1,62 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Get Subscription detail of the provided user",
+    "line": 1,
+    "id": "get-subscription-detail-of-the-provided-user",
+    "tags": [],
+    "uri": "getSubs.feature",
+    "elements": [
+      {
+        "id": "get-subscription-detail-of-the-provided-user;fetch-subscription-information",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Fetch subscription information",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I am on Site Homepage",
+            "result": {
+              "status": "passed",
+              "duration": 5490000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "I enter partnerid, partner transaction id, customer id and subscription id",
+            "result": {
+              "status": "passed",
+              "duration": 6693000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "I click on execute button",
+            "result": {
+              "status": "passed",
+              "duration": 628000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "I should get subscription status",
+            "result": {
+              "status": "passed",
+              "duration": 30273000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
